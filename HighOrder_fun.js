@@ -1,23 +1,33 @@
-// Higher-Order Function: takes another function as a parameter
-function filterArray(arr, callback) {
-    let result = [];
-    for (let item of arr) {
-        if (callback(item)) {
-            result.push(item);
-        }
-    }
-    return result;
+// Higher order Function means function which accept another function as perameter or return a 
+// map, filter, reduce, forEach, every, some etc. are higher order functions
+
+
+
+// Example No 1
+let abc = function(){
+    let a = 10;
+    let b = 10;
+    let c = a + b;
+    console.log(c);
 }
 
-// Example Data
-const expenses = [500, 1500, 200, 30000, 750, 1200];
-
-// Callback function
-function isAboveThousand(amount) {
-    return amount > 10000;
+function lhs () {
+    console.log("Hello from lhs function");
+    
 }
 
-// Use the HOF
-const bigExpenses = filterArray(expenses, isAboveThousand);
+abc(lhs());
 
-console.log(bigExpenses); 
+
+
+// Example No 2
+function greet(name, callback) {
+    console.log("Hello, " + name);
+    callback();
+}
+
+function sayGoodbye() {
+    console.log("Namaste!");
+}
+
+greet("Akshat", sayGoodbye);
