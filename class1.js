@@ -23,9 +23,9 @@
 // console.log(a);
 
 // check if a variable is defined
-// [a] = [10, 20, 30];
-// console.log(a); 
+[a] = [10, 20, 30];
+console.log(a); 
 
 // ckeck the output 
-// c=100
-// console.log(c);
+c=100
+console.log(c);
