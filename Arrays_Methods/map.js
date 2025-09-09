@@ -21,7 +21,7 @@ console.log(newarr2);
 
 
 
-// Example 3
+// Example 3  sqrt = square root
 const a = [1, 4, 9, 16, 25];
 
 const sr = a.map(num => Math.sqrt(num)); 

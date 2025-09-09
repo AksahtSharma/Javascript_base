@@ -5,7 +5,7 @@ function isVoter(age){
     return age >17;
 }
 
-let filtered = [33, 38, 12, -44, 18, 22];
+let filtered = [33, 38, 12, -44, 18, 22]; 
 filtered = filtered.filter(isVoter);
 console.log(filtered);
 

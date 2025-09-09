@@ -1,4 +1,4 @@
-// The bind() method is used to create a new function that, when called, has its this value set to a specified value, regardless of how the function is invoked.
+// The bind() method is used to create a new function that, when called, has its this value set to a specified value, regardless of how the function is invoked. Usefull for leter execution
 
 
 // Example 1
