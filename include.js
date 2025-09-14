@@ -32,7 +32,7 @@ console.log(Str.includes("Akshat"));
 // UseCase
 let userInfo = ["Akshat", "Ram", "Jhon"];
 
-if(userInfo.includes("Ram")){
+if(userInfo.includes("adi")){
       console.log("User found✅ ");   
 }else{
       console.log("User not found✖️");

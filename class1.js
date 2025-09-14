@@ -9,8 +9,9 @@
 // console.log(value2);
 
 
+
 // Check variable scope and hoisting
-// var a = 1000;
+// var a = 1000; 
 // {
 //     var a = 2000;
 // }
@@ -22,10 +23,14 @@
 // console.log(b);
 // console.log(a);
 
-// check if a variable is defined
-[a] = [10, 20, 30];
-console.log(a); 
+
+
+// check if a variable is defined , It is array destructing example
+// [a] = [10, 20, 30];
+// console.log(a); 
+
+
 
 // ckeck the output 
-c=100
-console.log(c);
+// c=100
+// console.log(c);
